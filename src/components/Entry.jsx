@@ -5,7 +5,7 @@ export default function Entry(props) {
                 <img
                     className="main-image"
                     src={props.entry.img.src}
-                    alt={props.img.alt}
+                    alt={props.entry.img.alt}
                 />
             </div>
             <div className="info-container">
